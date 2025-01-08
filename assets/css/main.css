@@ -234,6 +234,37 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+					/* Video Demo Section Styling */
+/* Video Demo Section Styling */
+#video-demo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 300px; /* Set video width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.video-container h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fbf7f7;
+}
+
+.video-container p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #f5eded;
+}
 
 /* Loader */
 
