@@ -2541,20 +2541,12 @@ input, select, textarea {
 			}
 
 			.icon.alt:before {
-<<<<<<< HEAD
 				color: #898888 !important;
-=======
-				color: #1c1d26 !important;
->>>>>>> b77bfbccb67ad16130363f46ef40d2356892903f
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
 		.icon.major {
-<<<<<<< HEAD
 			background: #182362;
-=======
-			background: #272833;
->>>>>>> b77bfbccb67ad16130363f46ef40d2356892903f
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -3397,11 +3389,7 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-<<<<<<< HEAD
 		background: rgba(18, 18, 18, 0.965);
-=======
-		background: rgba(39, 40, 51, 0.965);
->>>>>>> b77bfbccb67ad16130363f46ef40d2356892903f
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
