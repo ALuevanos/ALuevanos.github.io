@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Alexis's Portfolio - Arduino Uno Gaming Controller</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="index.html">Alexis's Portfolio</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Projects</a>
+                        <ul>
+                            <li><a href="capstone.html">TrailCart Capstone Project</a></li>
+                            <li><a href="RNM.html">Random Number Generator</a></li>
+                            <li><a href="BCP.html">Breast Cancer Stage Prediction</a></li>
+                            <li><a href="Gamecontroller.html">Game Controller</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Experience</a>
+                        <ul>
+                            <li><a href="LACityDSintern.html">LA City - Data Science Intern</a></li>
+                            <li><a href="UCRFellowship.html">UCR DS-PATH Fellowship</a></li>
+                            <li><a href="UndergradResearcher.html">Undergraduate Researcher</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="contact.html" class="button primary">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>Arduino Gaming Controller</h2>
+                    <p>A hands-on project where I combined electronics, coding, and 3D printing to make a custom controller.</p>
+                </header>
+
+                <section id="content">
+                    <style>
+                        .box.alt {
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            gap: 20px; /* Adds spacing between images */
+                        }
+                        .box.alt .image-container {
+                            max-width: 300px; /* Ensures all images are the same width */
+                            flex: 1; /* Ensures equal spacing for all images */
+                            text-align: center; /* Center-align images */
+                        }
+                        .box.alt img {
+                            width: 100%;
+                            height: auto;
+                            border-radius: 10px; /* Adds rounded corners */
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+                        }
+                    </style>
+                    <div class="box alt">
+                        <div class="image-container">
+                            <span class="image fit">
+                                <img src="images/controller1.jpg" alt="Controller Front View" />
+                            </span>
+                        </div>
+                        <div class="image-container">
+                            <span class="image fit">
+                                <img src="images/controller.png" alt="Controller Back View" />
+                            </span>
+                        </div>
+                        <div class="image-container">
+                            <span class="image fit">
+                                <img src="images/back.jpg" alt="3D Printed Controller Case" />
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                    <h3>What I Did</h3>
+                    <p>
+                        I created a retro-inspired gaming controller with an Arduino Uno. I looked into how the Arduino’s USB features could work for gaming, then modeled and 3D-printed a case to hold everything. Once I wired up buttons and a joystick, I wrote C++ code so it could act like a USB game controller for Windows, macOS, and Linux.
+                    </p>
+
+                    <h3>What I Learned</h3>
+                    <p>
+                        This project gave me a solid introduction to embedded systems, soldering, and circuit design. I sharpened my C++ skills by reading button and joystick inputs and sending them to a computer. I also improved my 3D modeling abilities in Blender. Troubleshooting across different operating systems taught me how to test and fix problems step by step.
+                    </p>
+
+                    <h3>Outcome</h3>
+                    <p>
+                        The final controller works well with both 2D and 3D games on a PC. It has a sturdy 3D-printed case and quick response times. I spent under $50 in total, so it’s affordable, and it’s easy to modify or expand if needed.
+                    </p>
+
+                    <h3>Tools and Technologies</h3>
+                    <ul>
+                        <li><strong>Hardware:</strong> Arduino Uno, buttons, joystick modules, soldering kit, 3D printer</li>
+                        <li><strong>Software:</strong> Arduino IDE, Blender for 3D modeling</li>
+                        <li><strong>Programming Language:</strong> C++ for firmware</li>
+                    </ul>
+
+                    <h3>Future Improvements</h3>
+                    <p>
+                        Next steps could include adding Bluetooth for wireless play and refining the case shape for even better comfort. I also want to explore making it compatible with popular game consoles so it can do more.
+                    </p>
+
+                    <p>
+                        You can check out the code here <a href="https://github.com/ALuevanos/GamePad-UNO" target="_blank">GitHub repository</a>.
+                    </p>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/alexisluevanos11/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/ALuevanos" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="contact.html" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; 2025 Alexis Luevanos. All rights reserved.</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
