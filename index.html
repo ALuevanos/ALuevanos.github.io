@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<<<<<<< HEAD
 <html>
 <head>
     <title>Alexis's Portfolio</title>
@@ -202,4 +203,214 @@
         document.addEventListener("DOMContentLoaded", type);
     </script>
 </body>
+=======
+
+<!--
+    Template initially based on "Landed" by HTML5 UP (html5up.net), adapted and customized by Alexis Luevanos.
+    Front page design and modifications are original and created solely by Alexis Luevanos.
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license).
+-->
+
+<html>
+	<head>
+		<title>alexis's portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Hero Section Styles */
+			.hero {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				min-height: 100vh; /* Full viewport height */
+				padding: 100px 0;
+				text-align: center;
+			}
+
+			.hero .image {
+				width: 300px;
+				height: 300px;
+				border-radius: 50%; /* Perfect circle */
+				overflow: hidden; /* Ensures the image stays within the circle */
+				margin-bottom: 20px;
+			}
+
+			.hero .image img {
+				width: 100%; /* Ensures the image fills the circle */
+				height: 100%;
+				object-fit: cover; /* Ensures the image scales properly */
+			}
+
+			.hero h1 {
+				font-size: 2.5em;
+				margin: 0.5em 0;
+				font-weight: bold;
+				color: white; /* Set main text color to white */
+			}
+
+			.hero h1 .typing {
+				color: #1E90FF; /* Set typing effect color to blue */
+				font-weight: bold; /* Ensure typing effect is bold */
+			}
+
+			.hero p {
+				font-size: 1.2em;
+				max-width: 600px;
+				color: white; /* Set text color to white */
+				font-weight: bold; /* Make text bold */
+			}
+
+			.cta a {
+				background: white;
+				color: black;
+				padding: 10px 20px;
+				text-decoration: none;
+				margin: 5px;
+				display: inline-block;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+
+			.cta a:hover {
+				background: #babec2;
+				color: white;
+			}
+
+			.goto-next {
+				display: inline-block;
+				margin-top: 20px;
+				font-size: 1.5em;
+				color: #1E90FF;
+				text-decoration: none;
+				transition: color 0.3s;
+			}
+
+			.goto-next:hover {
+				color: white;
+			}
+		</style>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Alexis's Portfolio</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<li><a href="capstone.html">TrailCart Capstone Project</a></li>
+									<li><a href="RNM.html">Random Number generator</a></li>
+									<li><a href="BCP.html">Breast Cancer stage prediction</a></li>
+									<li><a href="Gamecontroller.html">Game controller</a></li>
+									
+									
+								</ul>
+							</li>
+							
+							<li>
+								<a href="#">Expirence</a>
+								<ul>
+									<li><a href="LACityDSintern.html">LA City - Data Science intern</a></li>
+									<li><a href="UCRFellowship.html">UCR DS-PATH Fellowship</a></li>
+									<li><a href="UndergradResearcher.html">Undergraduate Resarcher</a></li>
+								</ul>
+							</li>
+
+							<li><a href="aboutme.html">About me</a></li>
+							<li><a href="contact.html" class="button primary">contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Hero Section -->
+				<div id="home" class="hero">
+					<div class="image">
+						<img src="images/alexis.jpg" alt="Alexis Luevanos">
+					</div>
+					<div class="content">
+						<h1>Welcome, I’m <span class="typing"></span></h1>
+						<p>Computer Engineering Student at California State University, San Bernardino, ready to explore innovative tech environments and continually learn. I’m passionate about AI, robotics, data science, machine learning, and health science.</p>
+						<div class="cta">
+							<!-- Button to view and download the resume -->
+							<a href="PDFs/Alexis_Resume.pdf" target="_blank" target="_blank">Download Resume</a>
+							
+							<!-- Button to view and download the CV -->
+							<a href="PDFs/Alexis luevanos CV .pdf" target="_blank" target="_blank">Download CV</a>
+						</div>
+						
+					</div>
+				</div>
+
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/alexisluevanos11/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/ALuevanos" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="contact.html" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; 2025 Alexis Luevanos. All rights reserved.</li>
+					</ul>
+				</footer>
+				
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				// Typing Effect
+				const textArray = ["Computer Engineer", "Alexis Luevanos", "a Problem Solver"];
+				let arrayIndex = 0;
+				let charIndex = 0;
+
+				const typingSpeed = 100; // Speed of typing in milliseconds
+				const erasingSpeed = 50; // Speed of erasing in milliseconds
+				const delayBetweenWords = 2000; // Delay between typing and erasing
+
+				function type() {
+					const typingSpan = document.querySelector(".typing");
+					if (typingSpan) {
+						if (charIndex < textArray[arrayIndex].length) {
+							typingSpan.innerHTML += textArray[arrayIndex].charAt(charIndex);
+							charIndex++;
+							setTimeout(type, typingSpeed);
+						} else {
+							setTimeout(erase, delayBetweenWords);
+						}
+					}
+				}
+
+				function erase() {
+					const typingSpan = document.querySelector(".typing");
+					if (typingSpan) {
+						if (charIndex > 0) {
+							typingSpan.innerHTML = textArray[arrayIndex].substring(0, charIndex - 1);
+							charIndex--;
+							setTimeout(erase, erasingSpeed);
+						} else {
+							arrayIndex = (arrayIndex + 1) % textArray.length;
+							setTimeout(type, delayBetweenWords / 4);
+						}
+					}
+				}
+
+				document.addEventListener("DOMContentLoaded", type);
+			</script>
+	</body>
+>>>>>>> b77bfbccb67ad16130363f46ef40d2356892903f
 </html>
